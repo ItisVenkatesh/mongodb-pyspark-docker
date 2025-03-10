@@ -6,27 +6,28 @@ This repository demonstrates the integration of MongoDB with PySpark. It provide
 This project sets up a MongoDB database along with Mongo Express (a web-based admin interface for MongoDB) using Docker Compose. It also includes a PySpark Jupyter Notebook to interact with MongoDB.
 
 ## 📌 Features:
-	•	MongoDB setup using Docker and docker-compose
-	•	JDBC connection for PySpark
-	•	Example table creation using mongo express
-    •   Data insertion using pymongo and retrieval using PySpark
-    •   Data transformation using PySpark
-    •   Data load into mongodb using PySpark
-	•	Steps to install dependencies and configure the setup
+    -   MongoDB setup using Docker and docker-compose
+    -   JDBC connection for PySpark
+    -   Example table creation using mongo express
+    -   Data insertion using pymongo and retrieval using PySpark
+    -   Data transformation using PySpark
+    -   Data load into mongodb using PySpark
+    -   Steps to install dependencies and configure the setup
 
 ## 🛠️ Tech Stack
-- **ETL Tools**: PySpark
-- **Database**: mongoDB and mongo express
-- **Language**: Python
-- **Container**: Docker
+    - **ETL Tools**: PySpark
+    - **Database**: mongoDB and mongo express
+    - **Language**: Python
+    - **Container**: Docker
 
 ## Prerequisites
 
 Ensure you have the following installed on your system:
-	•	Docker
-	•	Python (Recommended: Python 3.13.1)
-	•	Jupyter Notebook (Optional, if running manually)
-	•	PySpark
+
+    -   Docker
+    -   Python (Recommended: Python 3.13.1)
+    -   Jupyter Notebook (Optional, if running manually)
+    -   PySpark
 
 ## 🚀 Setup Instructions
 
@@ -44,8 +45,8 @@ After starting Docker engine,
     docker-compose up --build -d
 ```
 This will,
-	•	Start MongoDB on port 27017
-	•	Start Mongo Express on port 8081
+    -   Start MongoDB on port 27017
+    -   Start Mongo Express on port 8081
 
 3) Mongo Express
 
